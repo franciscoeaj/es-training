@@ -31,6 +31,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 # Use JWT for web requests
 gem 'jwt'
+# Since this application is an API, we can use simple_command to shorten the code between controllers and models
+gem 'simple_command'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
