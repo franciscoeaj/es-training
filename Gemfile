@@ -33,6 +33,9 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
 # Since this application is an API, we can use simple_command to shorten the code between controllers and models
 gem 'simple_command'
+# Allow CORS
+gem 'rack-cors', :require => 'rack/cors'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
